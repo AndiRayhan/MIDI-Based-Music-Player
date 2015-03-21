@@ -5,7 +5,7 @@ The String contains characters that belong to one of these three categories
 - Pitch adjuster: sharp ('#') or flat ('!') NOTE: MUST BE PLACED AFTER A NOTE CHARACTER
 - Note character: Default letter notes i.e. C, D, E, F, G, A, B
 - Octave modifier: Increase by 1 octave = '<' or decrease by 1 octave '>'
- 					NOTE ON USAGE: Entering one these characters will shift the
+ 					NOTE ON USAGE: Entering one these characters will shift the octave of all the characters after it.
 - Pauses: instantiates a Note object with the silent attribute set to true
 - Numbers: indicate the duration of the succeeding (single) note
 In the main method you will find a String called notestring which is loaded onto a MidiTrack Object
